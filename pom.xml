@@ -26,6 +26,7 @@
 		</developer>
 	</developers>
 
+
 	<scm>
 		<connection>scm:git:git://github.com/GouthamKumarPagadala/Java_Automation_Libraries.git</connection>
 		<developerConnection>scm:git:ssh://github.com/GouthamKumarPagadala/Java_Automation_Libraries.git</developerConnection>
@@ -107,4 +108,26 @@
 
 		</plugins>
 	</build>
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>3.8.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+	</dependencies>
 </project>
