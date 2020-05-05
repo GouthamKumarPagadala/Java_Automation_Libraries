@@ -1,4 +1,4 @@
-package io.github.gouthamkumarpagadala;
+package io.github.manager;
 
 public interface JIRA {
 
