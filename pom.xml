@@ -31,7 +31,24 @@
 		<developerConnection>scm:git:ssh://github.com/GouthamKumarPagadala/Java_Automation_Libraries.git</developerConnection>
 		<url>https://github.com/GouthamKumarPagadala/Java_Automation_Libraries</url>
 	</scm>
+	<dependencies>
+		<dependency>
+			<groupId>com.jayway.jsonpath</groupId>
+			<artifactId>json-path</artifactId>
+			<version>2.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>4.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.squareup.okhttp3</groupId>
+			<artifactId>okhttp</artifactId>
+			<version>3.4.2</version>
+		</dependency>
 
+	</dependencies>
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
